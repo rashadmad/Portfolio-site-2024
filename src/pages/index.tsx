@@ -4,7 +4,7 @@ import type { HeadFC, PageProps } from "gatsby";
 import Data from '../data/Portfolio.json'; 
 //src/data/portfolio.json
 
-interface PortfolioItem {
+interface portfolioItem {
   title: string;
   description: string;
   source: string;
@@ -12,7 +12,7 @@ interface PortfolioItem {
   url: string;
 }
 
-function PortfolioItem({ title, description, source, image }: Data) {
+function PortfolioItem({ title, description, source, image }: portfolioItem) {
   return (
     <div className="portfolio-item">
       <img src={image} alt={title} className="portfolio-image" />
