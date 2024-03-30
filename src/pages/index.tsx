@@ -1,14 +1,18 @@
 import React from 'react';
 import type { HeadFC, PageProps } from "gatsby";
 
+import Data from '../data/Portfolio.json'; 
+//src/data/portfolio.json
+
 interface PortfolioItem {
   title: string;
   description: string;
+  source: string;
   image: string;
   url: string;
 }
 
-function PortfolioItem({ title, description, image }: PortfolioItem) {
+function PortfolioItem({ title, description, source, image }: Data) {
   return (
     <div className="portfolio-item">
       <img src={image} alt={title} className="portfolio-image" />
@@ -21,22 +25,7 @@ function PortfolioItem({ title, description, image }: PortfolioItem) {
 }
 
 const IndexPage: React.FC<PageProps> = () => {
-  // Sample portfolio data
-  const portfolioItems = [
-    {
-      title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: 'https://via.placeholder.com/300',
-      url: 'https://via.placeholder.com/300'
-    },
-    {
-      title: 'Project 2',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      image: 'https://via.placeholder.com/300',
-      url: 'https://via.placeholder.com/300'
-    },
-    // Add more portfolio items as needed
-  ];
+
 
       return (
         <div className="app">
@@ -47,12 +36,15 @@ const IndexPage: React.FC<PageProps> = () => {
             <div className="container">
               <h2 className="section-title">Portfolio</h2>
               <div className="portfolio-items">
-                {portfolioItems.map((item, index) => (
+              [key, value]: [string, boolean]
+                {Data.map((item, index) => (
                   <PortfolioItem
                     key={index}
                     title={item.title}
                     description={item.description}
+                    source={item.source}
                     image={item.image}
+                    url={item.url}
                   />
                 ))}
               </div>
