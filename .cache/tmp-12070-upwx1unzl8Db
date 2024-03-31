@@ -1,5 +1,0 @@
-
-    const cmd = require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/node_modules/gatsby/dist/commands/develop-process.js");
-    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"json":false,"H":"localhost","host":"localhost","p":"8000","port":8000,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","ca-file":"","caFile":"","graphql-tracing":false,"graphqlTracing":false,"$0":"gatsby","directory":"/Users/rashadmadison/Documents/Projects/Portfolio-site-2024","browserslist":[">0.25%","not dead"],"sitePackageJson":{"name":"portfolio-site-2024","version":"1.0.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","clean":"gatsby clean","develop":"gatsby develop","build":"gatsby build","serve":"gatsby serve"},"keywords":[],"author":"","license":"ISC","dependencies":{"gatsby":"^5.13.3","react":"^18.2.0","react-dom":"^18.2.0","userland":"^0.4.1"}},"report":{"errorMap":{}},"useYarn":false,"proxyPort":8000,"debugInfo":null};
-    cmd(args);
-  
