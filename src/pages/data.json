@@ -1,8 +1,9 @@
-{
-    "portfolio_items": [
+    [
       {
         "title": "Project 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["HTML", "CSS", "JavaScript"],
         "live": "https://example.com/project1",
         "source": "https://github.com/example/project1"
@@ -10,6 +11,8 @@
       {
         "title": "Project 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Python", "Django", "Bootstrap"],
         "live": "https://example.com/project2",
         "source": "https://github.com/example/project2"
@@ -17,6 +20,8 @@
       {
         "title": "Project 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["React", "Node.js", "MongoDB"],
         "live": "https://example.com/project3",
         "source": "https://github.com/example/project3"
@@ -24,6 +29,8 @@
       {
         "title": "Project 4",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Java", "Spring Boot", "MySQL"],
         "live": "https://example.com/project4",
         "source": "https://github.com/example/project4"
@@ -31,6 +38,8 @@
       {
         "title": "Project 5",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Ruby", "Rails", "PostgreSQL"],
         "live": "https://example.com/project5",
         "source": "https://github.com/example/project5"
@@ -38,6 +47,8 @@
       {
         "title": "Project 6",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Angular", "Express", "MySQL"],
         "live": "https://example.com/project6",
         "source": "https://github.com/example/project6"
@@ -45,6 +56,8 @@
       {
         "title": "Project 7",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Vue.js", "Flask", "SQLite"],
         "live": "https://example.com/project7",
         "source": "https://github.com/example/project7"
@@ -52,6 +65,8 @@
       {
         "title": "Project 8",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["PHP", "Laravel", "MySQL"],
         "live": "https://example.com/project8",
         "source": "https://github.com/example/project8"
@@ -59,6 +74,8 @@
       {
         "title": "Project 9",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Swift", "iOS", "CoreData"],
         "live": "https://example.com/project9",
         "source": "https://github.com/example/project9"
@@ -66,6 +83,8 @@
       {
         "title": "Project 10",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["Flutter", "Dart"],
         "live": "https://example.com/project10",
         "source": "https://github.com/example/project10"
@@ -73,6 +92,8 @@
       {
         "title": "Project 11",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["TensorFlow", "Python"],
         "live": "https://example.com/project11",
         "source": "https://github.com/example/project11"
@@ -80,10 +101,12 @@
       {
         "title": "Project 12",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+        "img": "https://picsum.photos/200",
+        "imgAlt": "water",
         "tech": ["C++", "OpenGL"],
         "live": "https://example.com/project12",
         "source": "https://github.com/example/project12"
       }
     ]
-  }
+
   

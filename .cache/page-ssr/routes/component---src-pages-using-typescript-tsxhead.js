@@ -219,7 +219,7 @@ function Seo({
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Gatsby Default Starter"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Rashad Madison: Fullstack | Frontend | Design"}}}}');
 
 /***/ }),
 
@@ -230,7 +230,7 @@ module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Gatsby De
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Gatsby Default Starter","description":"Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.","author":"@gatsbyjs"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Rashad Madison: Fullstack | Frontend | Design","description":"Rashad is here to fulfill all of your Software engineering & Design needs get in touch.","author":"Rashad J Madison"}}}}');
 
 /***/ })
 

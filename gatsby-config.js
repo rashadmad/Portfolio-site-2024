@@ -9,14 +9,20 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Rashad Madison: Fullstack | Frontend | Design`,
+    description: `Rashad is here to fulfill all of your Software engineering & Design needs get in touch.`,
+    author: `Rashad J Madison`,
+    siteUrl: `https://rashadmadison.com/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: `post`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
