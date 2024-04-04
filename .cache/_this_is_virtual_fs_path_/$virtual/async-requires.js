@@ -4,6 +4,7 @@ exports.components = {
   "component---src-pages-banner-js": () => import("./../../../src/pages/Banner.js?export=default" /* webpackChunkName: "component---src-pages-banner-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-page-2-js": () => import("./../../../src/pages/page-2.js?export=default" /* webpackChunkName: "component---src-pages-page-2-js" */),
+  "component---src-pages-portfolio-card-js": () => import("./../../../src/pages/PortfolioCard.js?export=default" /* webpackChunkName: "component---src-pages-portfolio-card-js" */),
   "component---src-pages-using-ssr-js": () => import("./../../../src/pages/using-ssr.js?export=default" /* webpackChunkName: "component---src-pages-using-ssr-js" */),
   "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx?export=default" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */),
   "component---src-templates-using-dsg-js": () => import("./../../../src/templates/using-dsg.js?export=default" /* webpackChunkName: "component---src-templates-using-dsg-js" */)

@@ -155,6 +155,69 @@ const Banner = ({
 
 /***/ }),
 
+/***/ "./src/pages/PortfolioCard.js":
+/*!************************************!*\
+  !*** ./src/pages/PortfolioCard.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const Card = ({
+  title,
+  img,
+  imgAlt,
+  live,
+  source,
+  description,
+  tech
+}) => {
+  const {
+    0: visible,
+    1: setIsVisible
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
+  const closeBanner = () => {
+    setIsVisible(!visible);
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex px-3 py-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "rounded-b-lg max-w-sm rounded overflow-hidden shadow-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "rounded-t-lg h-full w-full max-h-64 ...",
+    src: img,
+    alt: imgAlt
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "px-6 py-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "font-bold text-xl mb-2"
+  }, title), tech.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    key: index,
+    className: "m-2 inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+  }, item))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "px-6 py-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    class: "text-gray-700 text-base"
+  }, description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "px-6 py-4 flex items-center justify-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    href: live,
+    class: "w-9/12 m-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+  }, "Demo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    href: source,
+    class: "w-9/12 m-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+  }, "Repo")))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Card);
+
+/***/ }),
+
 /***/ "./src/pages/index.js?export=default":
 /*!*******************************************!*\
   !*** ./src/pages/index.js?export=default ***!
@@ -170,7 +233,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner */ "./src/pages/Banner.js");
 /* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ "./src/pages/data.json");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _PortfolioCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PortfolioCard */ "./src/pages/PortfolioCard.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shrinkedLogo.png */ "./src/pages/shrinkedLogo.png");
+
+
 
 
 
@@ -186,7 +253,11 @@ const IndexPage = ({
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "flex-grow flex flex-col min-h-screen"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    firstItem: "Grand re-opening!",
+    secondItem: "Open to software engineering opportunities",
+    buttonText: "Get in touch"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "bg-gray-900 py-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "container mx-auto px-6 md:px-12"
@@ -211,16 +282,13 @@ const IndexPage = ({
     href: "#",
     class: "bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md"
   }, "Learn More"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    class: "md:w-1/2 lg:w-1/3 mt-8 md:mt-0"
+    className: "md:w-1/2 lg:w-1/3 mt-8 md:mt-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://via.placeholder.com/500x500",
+    className: "w-90",
+    src: _shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "Hero Image",
     class: "rounded-lg shadow-lg"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    firstItem: "Grand re-opening!",
-    secondItem: "Open to software engineering opportunities",
-    buttonText: "Get in touch"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "main bg-white py-24 sm:py-32 flex-grow"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mx-auto max-w-7xl px-6 lg:px-8"
@@ -232,40 +300,35 @@ const IndexPage = ({
     className: "mt-2 text-lg leading-8 text-gray-600"
   }, "Take a look at my work. Most of my work is created in Vanilla JavaScript. At the moment I am taking the time to update everything in a different frontend framework. I am discussing my journey in my blog you are welcome to join me in my jour")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-  }, _data_json__WEBPACK_IMPORTED_MODULE_2__.map(data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("article", {
-    key: data.id,
-    className: "flex max-w-xl flex-col items-start justify-between"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: data.img,
-    alt: data.imageAlt,
-    className: "h-full w-full object-cover object-center lg:h-full lg:w-full"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex items-center gap-x-4 text-xs"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: data.source,
-    className: "relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-  }, _data_json__WEBPACK_IMPORTED_MODULE_2__.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "group relative"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    className: "mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "absolute inset-0"
-  }), data.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "mt-5 line-clamp-3 text-sm leading-6 text-gray-600"
-  }, data.description))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+  }, _data_json__WEBPACK_IMPORTED_MODULE_2__.map(data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PortfolioCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: data.title,
+    description: data.description,
+    img: data.img,
+    tech: data.tech
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
     class: "bg-gray-800 text-white py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "container mx-auto text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\xA9 2024 Rashad J Madison. All rights reserved."))));
 };
-const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_4__["default"], {
   title: "Home"
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
+
+/***/ }),
+
+/***/ "./src/pages/shrinkedLogo.png":
+/*!************************************!*\
+  !*** ./src/pages/shrinkedLogo.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/shrinkedLogo-103919927e4825c1754d99b857035835.png");
 
 /***/ }),
 
