@@ -186,7 +186,37 @@ const IndexPage = ({
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "flex-grow flex flex-col min-h-screen"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "bg-gray-900 py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "container mx-auto px-6 md:px-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "flex flex-col md:flex-row items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "md:w-1/2 lg:w-2/3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    class: "text-4xl md:text-6xl lg:text-7xl text-white font-bold mb-6"
+  }, "Welcome to our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", {
+    class: "hidden md:block"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    class: "text-indigo-500"
+  }, "Awesome"), " Website"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    class: "text-lg md:text-xl lg:text-2xl text-gray-400 mb-8"
+  }, "We create beautiful and functional websites for businesses of all sizes."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "flex gap-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#",
+    class: "bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md"
+  }, "Get Started"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#",
+    class: "bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md"
+  }, "Learn More"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "md:w-1/2 lg:w-1/3 mt-8 md:mt-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: "https://via.placeholder.com/500x500",
+    alt: "Hero Image",
+    class: "rounded-lg shadow-lg"
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
     firstItem: "Grand re-opening!",
     secondItem: "Open to software engineering opportunities",
     buttonText: "Get in touch"

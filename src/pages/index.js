@@ -10,6 +10,32 @@ const IndexPage = ({ title, description, img, imgAlt, tech, live, source }) => {
   return (
   <div class="flex-grow flex flex-col min-h-screen">
     <Banner firstItem="Grand re-opening!" secondItem="Open to software engineering opportunities" buttonText="Get in touch"></Banner>
+    <div class="bg-gray-900 py-20">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 lg:w-2/3">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl text-white font-bold mb-6">
+                        Welcome to our <br class="hidden md:block" />
+                        <span class="text-indigo-500">Awesome</span> Website
+                    </h1>
+                    <p class="text-lg md:text-xl lg:text-2xl text-gray-400 mb-8">
+                        We create beautiful and functional websites for businesses of all sizes.
+                    </p>
+                    <div class="flex gap-2">
+                        <a href="#" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Get
+                            Started
+                        </a>
+                        <a href="#" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md">Learn
+                            More
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 lg:w-1/3 mt-8 md:mt-0">
+                    <img src="https://via.placeholder.com/500x500" alt="Hero Image" class="rounded-lg shadow-lg" />
+                </div>
+            </div>
+        </div>
+    </div>
     <div className="main bg-white py-24 sm:py-32 flex-grow">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
