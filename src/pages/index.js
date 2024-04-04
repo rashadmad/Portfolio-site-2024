@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const IndexPage = ({ title, description, img, imgAlt, tech, live, source }) => {
 
   return (
-  <div class="flex flex-col min-h-screen">
+  <div class="flex-grow flex flex-col min-h-screen">
     <Banner firstItem="Grand re-opening!" secondItem="Open to software engineering opportunities" buttonText="Get in touch"></Banner>
     <div className="main bg-white py-24 sm:py-32 flex-grow">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -51,8 +51,6 @@ const IndexPage = ({ title, description, img, imgAlt, tech, live, source }) => {
         </div>
       </div>
     </div>
-    <main class="flex-grow">
-    </main>
       <footer class="bg-gray-800 text-white py-4">
           <div class="container mx-auto text-center">
               <p>&copy; 2024 Rashad J Madison. All rights reserved.</p>
