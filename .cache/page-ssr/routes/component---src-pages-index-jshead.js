@@ -185,7 +185,7 @@ const IndexPage = ({
   source
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    class: "flex flex-col min-h-screen"
+    class: "flex-grow flex flex-col min-h-screen"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
     firstItem: "Grand re-opening!",
     secondItem: "Open to software engineering opportunities",
@@ -226,9 +226,7 @@ const IndexPage = ({
     className: "absolute inset-0"
   }), data.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "mt-5 line-clamp-3 text-sm leading-6 text-gray-600"
-  }, data.description))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    class: "flex-grow"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+  }, data.description))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
     class: "bg-gray-800 text-white py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "container mx-auto text-center"
