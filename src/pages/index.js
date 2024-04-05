@@ -1,7 +1,7 @@
 import * as React from "react"
 import Banner from './Banner'
-import Data from './data.json'
-import PortfolioCard from './PortfolioCard'
+import Data from '../data/data'
+import PortfolioCard from '../components/PortfolioCard'
 import Seo from "../components/seo"
 import logo from "./shrinkedLogo.png"
 
@@ -54,7 +54,7 @@ const IndexPage = ({ title, description, img, imgAlt, tech, live, source }) => {
       </div>
     </div>
       <footer class="bg-gray-800 text-white py-4">
-          <div class="container mx-auto text-center">
+          <div class="container mx-auto">
               <p>&copy; 2024 Rashad J Madison. All rights reserved.</p>
           </div>
       </footer>

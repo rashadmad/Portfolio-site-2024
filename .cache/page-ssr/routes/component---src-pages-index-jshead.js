@@ -232,7 +232,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner */ "./src/pages/Banner.js");
-/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ "./src/pages/data.json");
+/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/data */ "./src/data/data.json");
 /* harmony import */ var _PortfolioCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PortfolioCard */ "./src/pages/PortfolioCard.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
 /* harmony import */ var _shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shrinkedLogo.png */ "./src/pages/shrinkedLogo.png");
@@ -284,7 +284,7 @@ const IndexPage = ({
   }, "Learn More"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "md:w-1/2 lg:w-1/3 mt-8 md:mt-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "w-90",
+    className: "w-64",
     src: _shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "Hero Image",
     class: "rounded-lg shadow-lg"
@@ -300,7 +300,7 @@ const IndexPage = ({
     className: "mt-2 text-lg leading-8 text-gray-600"
   }, "Take a look at my work. Most of my work is created in Vanilla JavaScript. At the moment I am taking the time to update everything in a different frontend framework. I am discussing my journey in my blog you are welcome to join me in my jour")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-  }, _data_json__WEBPACK_IMPORTED_MODULE_2__.map(data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PortfolioCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, _data_data__WEBPACK_IMPORTED_MODULE_2__.map(data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PortfolioCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: data.title,
     description: data.description,
     img: data.img,
@@ -378,10 +378,10 @@ module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Rashad Ma
 
 /***/ }),
 
-/***/ "./src/pages/data.json":
-/*!*****************************!*\
-  !*** ./src/pages/data.json ***!
-  \*****************************/
+/***/ "./src/data/data.json":
+/*!****************************!*\
+  !*** ./src/data/data.json ***!
+  \****************************/
 /***/ ((module) => {
 
 module.exports = JSON.parse('[{"title":"Project 1","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["HTML","CSS","JavaScript"],"live":"https://example.com/project1","source":"https://github.com/example/project1"},{"title":"Project 2","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Python","Django","Bootstrap"],"live":"https://example.com/project2","source":"https://github.com/example/project2"},{"title":"Project 3","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["React","Node.js","MongoDB"],"live":"https://example.com/project3","source":"https://github.com/example/project3"},{"title":"Project 4","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Java","Spring Boot","MySQL"],"live":"https://example.com/project4","source":"https://github.com/example/project4"},{"title":"Project 5","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Ruby","Rails","PostgreSQL"],"live":"https://example.com/project5","source":"https://github.com/example/project5"},{"title":"Project 6","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Angular","Express","MySQL"],"live":"https://example.com/project6","source":"https://github.com/example/project6"},{"title":"Project 7","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Vue.js","Flask","SQLite"],"live":"https://example.com/project7","source":"https://github.com/example/project7"},{"title":"Project 8","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["PHP","Laravel","MySQL"],"live":"https://example.com/project8","source":"https://github.com/example/project8"},{"title":"Project 9","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Swift","iOS","CoreData"],"live":"https://example.com/project9","source":"https://github.com/example/project9"},{"title":"Project 10","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["Flutter","Dart"],"live":"https://example.com/project10","source":"https://github.com/example/project10"},{"title":"Project 11","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["TensorFlow","Python"],"live":"https://example.com/project11","source":"https://github.com/example/project11"},{"title":"Project 12","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.","img":"https://picsum.photos/200","imgAlt":"water","tech":["C++","OpenGL"],"live":"https://example.com/project12","source":"https://github.com/example/project12"}]');

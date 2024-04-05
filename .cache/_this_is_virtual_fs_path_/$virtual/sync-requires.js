@@ -9,7 +9,6 @@ exports.components = {
   "component---src-pages-banner-js": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/pages/Banner.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/pages/index.js")),
   "component---src-pages-page-2-js": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/pages/page-2.js")),
-  "component---src-pages-portfolio-card-js": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/pages/PortfolioCard.js")),
   "component---src-pages-using-ssr-js": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/pages/using-ssr.js")),
   "component---src-pages-using-typescript-tsx": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/pages/using-typescript.tsx")),
   "component---src-templates-using-dsg-js": preferDefault(require("/Users/rashadmadison/Documents/Projects/Portfolio-site-2024/src/templates/using-dsg.js"))
