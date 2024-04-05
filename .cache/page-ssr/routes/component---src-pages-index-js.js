@@ -3,73 +3,10 @@ exports.id = "component---src-pages-index-js";
 exports.ids = ["component---src-pages-index-js"];
 exports.modules = {
 
-/***/ "./src/components/seo.js":
-/*!*******************************!*\
-  !*** ./src/components/seo.js ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_63159454_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/63159454.json */ "./public/page-data/sq/d/63159454.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-
-/**
- * SEO component that queries for data with
- * Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
-
-function Seo({
-  description,
-  title,
-  children
-}) {
-  var _site$siteMetadata, _site$siteMetadata2;
-  const {
-    site
-  } = _public_page_data_sq_d_63159454_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = (_site$siteMetadata = site.siteMetadata) === null || _site$siteMetadata === void 0 ? void 0 : _site$siteMetadata.title;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react__WEBPACK_IMPORTED_MODULE_1__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("title", null, defaultTitle ? `${title} | ${defaultTitle}` : title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    name: "description",
-    content: metaDescription
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    property: "og:title",
-    content: title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    property: "og:description",
-    content: metaDescription
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    property: "og:type",
-    content: "website"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    name: "twitter:card",
-    content: "summary"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    name: "twitter:creator",
-    content: ((_site$siteMetadata2 = site.siteMetadata) === null || _site$siteMetadata2 === void 0 ? void 0 : _site$siteMetadata2.author) || ``
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    name: "twitter:title",
-    content: title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
-    name: "twitter:description",
-    content: metaDescription
-  }), children);
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Seo);
-
-/***/ }),
-
-/***/ "./src/pages/Banner.js":
-/*!*****************************!*\
-  !*** ./src/pages/Banner.js ***!
-  \*****************************/
+/***/ "./src/components/Banner.js":
+/*!**********************************!*\
+  !*** ./src/components/Banner.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -155,10 +92,10 @@ const Banner = ({
 
 /***/ }),
 
-/***/ "./src/pages/PortfolioCard.js":
-/*!************************************!*\
-  !*** ./src/pages/PortfolioCard.js ***!
-  \************************************/
+/***/ "./src/components/PortfolioCard.js":
+/*!*****************************************!*\
+  !*** ./src/components/PortfolioCard.js ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -218,6 +155,69 @@ const Card = ({
 
 /***/ }),
 
+/***/ "./src/components/seo.js":
+/*!*******************************!*\
+  !*** ./src/components/seo.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_63159454_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/63159454.json */ "./public/page-data/sq/d/63159454.json");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+/**
+ * SEO component that queries for data with
+ * Gatsby's useStaticQuery React hook
+ *
+ * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
+ */
+
+
+function Seo({
+  description,
+  title,
+  children
+}) {
+  var _site$siteMetadata, _site$siteMetadata2;
+  const {
+    site
+  } = _public_page_data_sq_d_63159454_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  const metaDescription = description || site.siteMetadata.description;
+  const defaultTitle = (_site$siteMetadata = site.siteMetadata) === null || _site$siteMetadata === void 0 ? void 0 : _site$siteMetadata.title;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react__WEBPACK_IMPORTED_MODULE_1__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("title", null, defaultTitle ? `${title} | ${defaultTitle}` : title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    name: "description",
+    content: metaDescription
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    property: "og:title",
+    content: title
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    property: "og:description",
+    content: metaDescription
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    property: "og:type",
+    content: "website"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    name: "twitter:card",
+    content: "summary"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    name: "twitter:creator",
+    content: ((_site$siteMetadata2 = site.siteMetadata) === null || _site$siteMetadata2 === void 0 ? void 0 : _site$siteMetadata2.author) || ``
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    name: "twitter:title",
+    content: title
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("meta", {
+    name: "twitter:description",
+    content: metaDescription
+  }), children);
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Seo);
+
+/***/ }),
+
 /***/ "./src/pages/index.js?export=default":
 /*!*******************************************!*\
   !*** ./src/pages/index.js?export=default ***!
@@ -231,11 +231,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner */ "./src/pages/Banner.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Banner */ "./src/components/Banner.js");
 /* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/data */ "./src/data/data.json");
-/* harmony import */ var _PortfolioCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PortfolioCard */ "./src/pages/PortfolioCard.js");
+/* harmony import */ var _components_PortfolioCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PortfolioCard */ "./src/components/PortfolioCard.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-/* harmony import */ var _shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shrinkedLogo.png */ "./src/pages/shrinkedLogo.png");
+/* harmony import */ var _images_shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/shrinkedLogo.png */ "./src/images/shrinkedLogo.png");
 
 
 
@@ -253,7 +253,7 @@ const IndexPage = ({
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "flex-grow flex flex-col min-h-screen"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_1__["default"], {
     firstItem: "Grand re-opening!",
     secondItem: "Open to software engineering opportunities",
     buttonText: "Get in touch"
@@ -284,8 +284,8 @@ const IndexPage = ({
   }, "Learn More"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "md:w-1/2 lg:w-1/3 mt-8 md:mt-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "w-64",
-    src: _shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+    className: "w-70",
+    src: _images_shrinkedLogo_png__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "Hero Image",
     class: "rounded-lg shadow-lg"
   }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -300,7 +300,7 @@ const IndexPage = ({
     className: "mt-2 text-lg leading-8 text-gray-600"
   }, "Take a look at my work. Most of my work is created in Vanilla JavaScript. At the moment I am taking the time to update everything in a different frontend framework. I am discussing my journey in my blog you are welcome to join me in my jour")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-  }, _data_data__WEBPACK_IMPORTED_MODULE_2__.map(data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_PortfolioCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, _data_data__WEBPACK_IMPORTED_MODULE_2__.map(data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PortfolioCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: data.title,
     description: data.description,
     img: data.img,
@@ -308,7 +308,7 @@ const IndexPage = ({
   }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
     class: "bg-gray-800 text-white py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    class: "container mx-auto text-center"
+    class: "container mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\xA9 2024 Rashad J Madison. All rights reserved."))));
 };
 const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -318,10 +318,10 @@ const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 /***/ }),
 
-/***/ "./src/pages/shrinkedLogo.png":
-/*!************************************!*\
-  !*** ./src/pages/shrinkedLogo.png ***!
-  \************************************/
+/***/ "./src/images/shrinkedLogo.png":
+/*!*************************************!*\
+  !*** ./src/images/shrinkedLogo.png ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
